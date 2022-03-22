@@ -5,6 +5,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && \
     apt-get install --no-install-recommends -y \
       bubblewrap \
+      curl \
       git \
       gir1.2-glib-2.0 \
       gir1.2-json-1.0 \
